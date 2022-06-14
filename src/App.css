@@ -1,0 +1,23 @@
+.Golowna{
+  background-image: url(./img/Glowna-bg.png);
+  color: #fff;
+}
+.header{
+  padding-top: 49px;
+  padding-bottom: 30px;
+}
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav-item{
+  display: flex;
+  align-items: center;
+}
+.header .nav-list{
+  margin-left: 78px;
+}
+.header .nav-list:first-child{
+margin-left: 0;
+}

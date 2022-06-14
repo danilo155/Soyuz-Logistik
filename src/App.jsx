@@ -1,11 +1,11 @@
 import './App.css';
-
+import Basket from './img/Basket.png'
 function App() {
   return (
     <div className="App">
       <div className='Golowna'>
-        <header className='header'>
-          <div className='container'>
+        <div className='container'>
+          <header className='header'>
             <h1>Союз Логистик</h1>
             <nav>
               <ul className="nav-item">
@@ -23,8 +23,11 @@ function App() {
                 </li>
               </ul>
             </nav>
-          </div>
-        </header>
+            <div className="Basket">
+              <img src={Basket} alt="" />
+            </div>
+          </header>
+        </div>
       </div>
 
     </div>
